@@ -1,0 +1,80 @@
+#Main-page {
+  padding-top: 8%;
+  height: 40%;
+  background-color: #fff;
+}
+.main-con {
+  padding: 3%;
+  justify-content: space-evenly;
+}
+#project-con {
+  padding: 5% 0;
+}
+
+.pro-head {
+  padding: 5% 10% 0 10.1%;
+  font-weight: 400;
+  color: #485d6e;
+}
+.pro-card-con {
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+}
+.row {
+  margin-left: 0 !important;
+}
+.shoeimage {
+  width: 100%;
+  border-radius: 15.6559px;
+}
+.pro-card {
+  margin: 5% 2%;
+  width: 300px;
+  height: 400px;
+  background: rgba(201, 214, 223, 0.5);
+  border-radius: 18.6559px;
+  justify-content: space-evenly;
+}
+
+.pro-card:nth-child(even) {
+  margin: 5% 2%;
+  width: 300px;
+  height: 400px;
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 18.6559px;
+  justify-content: space-evenly;
+}
+
+.pro-card-top {
+  height: 50%;
+  padding: 5%;
+  color: #485d6e;
+}
+.pro-card-bottom {
+  height: 70%;
+}
+.pro-card-head-con {
+  height: 50%;
+  padding: 5%;
+  color: #485d6e;
+}
+.pro-card-head {
+  color: #485d6e;
+}
+.pro-card-link-con {
+  height: 30%;
+  padding: 5%;
+}
+.pro-card-link-txt {
+  color: #485d6e;
+}
+.delete-pro {
+  text-decoration: none;
+  border: none;
+  height: 20px;
+  margin-left: 60%;
+  color: #07021c;
+  background-color: transparent;
+}

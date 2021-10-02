@@ -1,0 +1,24 @@
+#footer {
+  text-align: center;
+}
+.FooterComponent {
+  padding: 12px 0;
+  background-image: linear-gradient(
+    135deg,
+    #07021c 0%,
+    #485d6e 50%,
+    #696c6e 100%
+  );
+}
+.footer-con {
+  text-align: center;
+  width: 60%;
+}
+.footer-con a {
+  color: #f9f7f7;
+  padding: 15px;
+}
+.fa-shoe-prints {
+  color: #f9f7f7;
+  padding: 15px;
+}

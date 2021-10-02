@@ -1,0 +1,23 @@
+.navbar {
+  padding: 0.8% 5%;
+  background-color: #f9f7f7;
+}
+
+.navbar-brand {
+  color: #485d6e;
+  font-size: 1.4rem;
+}
+.nav-link-cart {
+  color: #485d6e;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+Data.link {
+  color: #485d6e;
+}
+.nav-link-cart:hover {
+  color: #07021c;
+}
+.navbar-brand:hover {
+  color: #07021c;
+}
