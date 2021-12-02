@@ -8,6 +8,17 @@ const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClea
         (price, item) => price + item.quantity * item.price, 0
     );
 
+    // function AlertHandle() {
+    //     const AlertHandle = () => {
+    //         alert("Great Shot!");
+    //     }
+    const AlertHandle = () => {
+        if (cartItems.length === 0) {
+            alert("Please add some sneakers!");
+        } else {
+            alert("Shop Again!");
+        }
+    }
     return (
         <div className="cart-items-con">
             <h3 className="cart-header flex-start">Cart Items</h3>
@@ -70,6 +81,11 @@ const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClea
             <div className="total-price-con">
                 <h3 className="total-price">
                     ${totalPrice}
+                </h3>
+            </div>
+            <div className="total-price-con">
+                <h3 className="total-price">
+                    <button onClick={AlertHandle} style={{ textDecoration: "none", border: "none", padding: "5px 30px", borderRadius: "18px" }}>Buy</button>
                 </h3>
             </div>
 
